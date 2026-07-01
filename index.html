@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>منصة أ. أسامة سلطاني للبحث العلمي</title>
+    <title>منصة أ. أسامة سلطاني</title>
     <style>
-        body { font-family: sans-serif; background-color: #f0f2f5; margin: 0; padding: 15px; }
-        header { background-color: #1a5276; color: white; padding: 20px; text-align: center; border-radius: 10px; }
-        .card { background: white; padding: 20px; margin-top: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .btn { display: block; background-color: #27ae60; color: white; padding: 10px; text-align: center; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        .header { background-color: #1a5276; color: white; width: 100%; text-align: center; padding: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        .container { max-width: 600px; width: 90%; display: flex; flex-direction: column; gap: 20px; }
+        .card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; }
+        .btn { display: inline-block; background-color: #27ae60; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; margin-top: 15px; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>منصة أ. أسامة سلطاني</h1>
-</header>
+    <div class="header">
+        <h2>منصة أ. أسامة سلطاني</h2>
+    </div>
 
-<div class="card">
-    <h3>عنوان البحث العلمي هنا</h3>
-    <p><strong>المؤلف:</strong> أ. أسامة سلطاني</p>
-    <a href="#" class="btn">تحميل PDF</a>
-</div>
+    <div class="container">
+        <!-- كود عرض رمز الـ QR -->
+        <div class="card">
+            <h3>للوصول السريع للمنصة</h3>
+            <img src="1000266458.png" alt="QR Code" width="200">
+        </div>
+
+        <!-- كود البحث -->
+        <div class="card">
+            <h3>المقال أو البحث العلمي الجديد</h3>
+            <a href="http://bit.ly/3wDX0PC" class="btn" target="_blank">تحميل الملف عبر Bitly</a>
+        </div>
+    </div>
 
 </body>
 </html>
+
