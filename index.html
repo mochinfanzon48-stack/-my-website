@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>منصة أ. أسامة سلطاني</title>
     
-    <!-- روابط الخطوط الجديدة -->
+    <!-- ربط خط Reem Kufi Fun -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap" rel="stylesheet">
@@ -14,20 +14,28 @@
         body {
             font-family: 'Reem Kufi Fun', sans-serif;
             text-align: center;
-            padding: 20px;
-            background-color: #f4f4f9;
+            padding: 40px 20px;
+            background-color: #fcfcfc;
+            color: #333;
         }
         h1 {
             color: #2c3e50;
+            margin-bottom: 30px;
         }
-        .qr-container {
-            margin: 30px 0;
+        .qr-container img {
+            max-width: 300px; /* حجم مناسب للرمز */
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 5px solid #fff;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        .qr-container img:hover {
+            transform: scale(1.05); /* تأثير بسيط عند وضع الفأرة على الرمز */
+        }
+        p {
+            margin-top: 25px;
+            font-size: 1.2rem;
+            color: #555;
         }
     </style>
 </head>
@@ -36,8 +44,8 @@
     <h1>منصة أ. أسامة سلطاني</h1>
     
     <div class="qr-container">
-        <!-- تأكد أن اسم ملف الصورة يطابق هذا الاسم تماماً -->
-        <img src="1000266617.heic" alt="QR Code" width="300">
+        <!-- استخدام اسم الملف الجديد بصيغة PNG -->
+        <img src="my-qr-code.png" alt="QR Code للمنصة">
     </div>
 
     <p>للوصول السريع للمنصة، امسح الرمز أعلاه</p>
